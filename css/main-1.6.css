@@ -133,6 +133,7 @@ body {
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000);
     /* For IE 8*/
     -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#CC000000, endColorstr=#CC000000)";
+
 }
 
 .title {
@@ -150,6 +151,10 @@ body {
     -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
     border-radius: 8px;
+	
+	
+    border: 4px solid #DA310D;
+
 
     /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(255, 255, 255);
@@ -294,6 +299,8 @@ section {
     -webkit-border-radius: 8px;
     border-radius: 8px;
 
+	border: 4px solid #DA310D;
+	
       /* Fallback for web browsers that doesn't support RGBa */
     background: rgb(255, 255, 255);
     /* RGBa with 0.7 opacity */
