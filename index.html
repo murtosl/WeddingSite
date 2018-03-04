@@ -23,6 +23,7 @@
 
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main-1.6.css">
+		<link rel="stylesheet" href="css/swipebox.css">
 
         <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
@@ -223,10 +224,6 @@ Follow Phalen Dr for 0.5 miles until you see the pavilion parking lot.
 
                         <div class="clearfix"></div>
 
-                        <div class="column full">
-                            <div class="hr-t"></div>
-                            <div class="hr-b"></div>
-                        </div>
                     </section>
 
                     
@@ -248,14 +245,41 @@ Follow Phalen Dr for 0.5 miles until you see the pavilion parking lot.
 					<section id="gallery" class="clearfix">
 
                         <h1>Gallery</h1>
-
-                        <div class="column full">
-                        
-                           <p>Coming Soon to a website near you!</p>
-                           
-                            
+<div class="column full">
+                        <div class="column full">                
+                          <a href="img/kiss.jpg" class="swipebox" title="Couple Kissing">
+							<img src="img/kiss.jpg" class="photoGal" alt="kiss"></a>
+							
+							<a href="img/Treekiss.jpg" class="swipebox" title="Sneaking a Kiss">
+							<img src="img/Treekiss.jpg" class="photoGal" alt="Sneaking a Kiss"></a>
+							
+							<a href="img/heart.jpg" class="swipebox" title="Heart in the Sand">
+							<img src="img/heart.jpg" class="photoGal" alt="heart"></a>
+							
+							<a href="img/oceanview.jpg" class="swipebox" title="Looking at ocean">
+							<img src="img/oceanview.jpg" class="photoGal" alt="Looking at ocean"></a>
+							
+							<a href="img/peace.jpg" class="swipebox" title="Peace">
+							<img src="img/peace.jpg" class="photoGal" alt="Peace"></a>
+							
+							<a href="img/bigbeach.jpg" class="swipebox" title="Couple on the Beach">
+							<img src="img/bigbeach.jpg" class="photoGal" alt="Couple on the Beach"></a>
+							
+							<a href="img/pool.jpg" class="swipebox" title="Couple in Dominican Republic">
+							<img src="img/pool.jpg" class="photoGal" alt="Couple in Dominican Republic"></a>
+							
+							<a href="img/smile.jpg" class="swipebox" title="Sarah's Favorite Photo">
+							<img src="img/smile.jpg" class="photoGal" alt="Sarah's Favorite Photo"></a>
+							
+							
+							<a href="img/Treepeak.jpg" class="swipebox" title="Palm Trees!">
+							<img src="img/Treepeak.jpg" class="photoGal" alt="Palm Trees!"></a>
                         </div><!--end column-->
-               
+                  </div>
+
+                        <div class="clearfix"></div>
+
+                       
                     </section>
 
 
@@ -267,6 +291,7 @@ Follow Phalen Dr for 0.5 miles until you see the pavilion parking lot.
         <script src="js/vendor/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/vendor/waypoints.min.js"></script>
         <script src="js/vendor/jquery-picture-min.js"></script>
+		<script src="js/jquery.swipebox.js"></script>
 
         <script src="js/main-1.5.js"></script>
 
@@ -275,6 +300,14 @@ Follow Phalen Dr for 0.5 miles until you see the pavilion parking lot.
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
+			
+			
+			
+			;( function( $ ) {
+
+	$( '.swipebox' ).swipebox();
+
+} )( jQuery );
         </script>
     </body>
 </html>
