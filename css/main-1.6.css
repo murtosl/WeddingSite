@@ -212,7 +212,7 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    background: transparent;
+    background: #D01C1F;
     white-space: nowrap;
     outline: none;
 }
@@ -413,7 +413,7 @@ section h2 {
         display:inline-block;
         font-size: 60%;
         white-space: nowrap;
-
+	
         -moz-font-smoothing: antialiased;
         -o-font-smoothing: antialiased;
         -ms-font-smoothing: antialiased;
