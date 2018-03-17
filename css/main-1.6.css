@@ -83,12 +83,12 @@ body {
 /* =============================================================================
    GOOGLE MAPS
    ========================================================================== */
-#gmap {
+.gmap {
     text-align: center;
     margin: 20px auto 20px auto;
 }
 
-#gmap iframe {
+.gmap iframe {
     width: 93%;
     height: 200px;
 
@@ -101,15 +101,15 @@ body {
     border-radius: 8px;
 }
 
-#gmap small a,
-#gmap small a:active,
-#gmap small a:visited {
+.gmap small a,
+.gmap small a:active,
+.gmap small a:visited {
     color: #b1bf92;
     text-decoration: none;
     outline: none;
 }
 
-#gmap small a:hover {
+.gmap small a:hover {
     color: #b1bf92;
     text-decoration: underline;
     outline: none;
@@ -449,7 +449,7 @@ section h2 {
         font-size: 1.1em;
     }
 
-    #gmap iframe {
+    .gmap iframe {
         height: 400px;
     }
 
